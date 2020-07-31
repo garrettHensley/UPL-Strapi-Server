@@ -14,21 +14,24 @@
       "required": true
     },
     "Description": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
     "Date": {
       "type": "datetime",
-      "required": true
+      "required": false
     },
     "PrizePool": {
       "type": "integer"
     },
-    "gfds": {
+    "Game": {
       "type": "enumeration",
       "enum": [
-        "gfds",
-        "gfdsgfds",
-        "gfdsgfdsgfds"
+        "Underlords",
+        "TFT",
+        "Valorant",
+        "Artifact",
+        "Runeterra"
       ]
     }
   }
