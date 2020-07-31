@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "events",
+  "info": {
+    "name": "Event"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Date": {
+      "type": "datetime",
+      "required": true
+    },
+    "PrizePool": {
+      "type": "integer"
+    },
+    "gfds": {
+      "type": "enumeration",
+      "enum": [
+        "gfds",
+        "gfdsgfds",
+        "gfdsgfdsgfds"
+      ]
+    }
+  }
+}
