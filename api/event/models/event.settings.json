@@ -21,9 +21,6 @@
       "type": "datetime",
       "required": false
     },
-    "PrizePool": {
-      "type": "integer"
-    },
     "Game": {
       "type": "enumeration",
       "enum": [
@@ -33,6 +30,9 @@
         "Artifact",
         "Runeterra"
       ]
+    },
+    "PrizePool": {
+      "type": "string"
     }
   }
 }
