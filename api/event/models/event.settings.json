@@ -28,11 +28,15 @@
         "TFT",
         "Valorant",
         "Artifact",
-        "Runeterra"
+        "Runeterra",
+        "AmongUs"
       ]
     },
     "PrizePool": {
       "type": "string"
+    },
+    "EndDate": {
+      "type": "datetime"
     }
   }
 }
